@@ -1,0 +1,30 @@
+pe/edu/upc/entities/Detalle.java
+ pe.edu.upc.entities.Detalle
+pe/edu/upc/services/ProductoService.java
+ pe.edu.upc.services.ProductoService
+pe/edu/upc/services/VentaService.java
+ pe.edu.upc.services.VentaService
+pe/edu/upc/entities/Producto.java
+ pe.edu.upc.entities.Producto
+pe/edu/upc/repositories/DetalleRepository.java
+ pe.edu.upc.repositories.DetalleRepository
+pe/edu/upc/services/ClienteService.java
+ pe.edu.upc.services.ClienteService
+pe/edu/upc/VentaServiceApplication.java
+ pe.edu.upc.VentaServiceApplication
+pe/edu/upc/entities/Venta.java
+ pe.edu.upc.entities.Venta
+pe/edu/upc/services/impls/ProductoServiceImplement.java
+ pe.edu.upc.services.impls.ProductoServiceImplement
+pe/edu/upc/entities/Cliente.java
+ pe.edu.upc.entities.Cliente
+pe/edu/upc/repositories/VentaRepository.java
+ pe.edu.upc.repositories.VentaRepository
+pe/edu/upc/repositories/ProductoRepository.java
+ pe.edu.upc.repositories.ProductoRepository
+pe/edu/upc/services/CrudService.java
+ pe.edu.upc.services.CrudService
+pe/edu/upc/services/impls/ClienteServiceImplement.java
+ pe.edu.upc.services.impls.ClienteServiceImplement
+pe/edu/upc/repositories/ClienteRepository.java
+ pe.edu.upc.repositories.ClienteRepository
