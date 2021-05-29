@@ -1,0 +1,32 @@
+pe/edu/upc/producto_service/entities/Status.java
+ pe.edu.upc.producto_service.entities.Status
+pe/edu/upc/producto_service/repository/BrandRepository.java
+ pe.edu.upc.producto_service.repository.BrandRepository
+pe/edu/upc/producto_service/services/ProductoService.java
+ pe.edu.upc.producto_service.services.ProductoService
+pe/edu/upc/producto_service/services/BrandService.java
+ pe.edu.upc.producto_service.services.BrandService
+pe/edu/upc/producto_service/services/CrudService.java
+ pe.edu.upc.producto_service.services.CrudService
+pe/edu/upc/producto_service/repository/ProductoRepository.java
+ pe.edu.upc.producto_service.repository.ProductoRepository
+pe/edu/upc/producto_service/services/impls/StatusServiceImpl.java
+ pe.edu.upc.producto_service.services.impls.StatusServiceImpl
+pe/edu/upc/producto_service/entities/Producto.java
+ pe.edu.upc.producto_service.entities.Producto
+pe/edu/upc/producto_service/controller/ProductoController.java
+ pe.edu.upc.producto_service.controller.ProductoController
+pe/edu/upc/producto_service/entities/Brand.java
+ pe.edu.upc.producto_service.entities.Brand
+pe/edu/upc/producto_service/repository/StatusRepository.java
+ pe.edu.upc.producto_service.repository.StatusRepository
+pe/edu/upc/producto_service/ProductoServiceApplication.java
+ pe.edu.upc.producto_service.ProductoServiceApplication
+pe/edu/upc/producto_service/services/impls/ProductoServiceImpl.java
+ pe.edu.upc.producto_service.services.impls.ProductoServiceImpl
+pe/edu/upc/producto_service/controller/ErrorMessage.java
+ pe.edu.upc.producto_service.controller.ErrorMessage
+pe/edu/upc/producto_service/services/StatusService.java
+ pe.edu.upc.producto_service.services.StatusService
+pe/edu/upc/producto_service/services/impls/BrandServiceImpl.java
+ pe.edu.upc.producto_service.services.impls.BrandServiceImpl
