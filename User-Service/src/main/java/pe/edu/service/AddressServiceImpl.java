@@ -25,12 +25,12 @@ public class AddressServiceImpl  implements AddressService {
 
     @Transactional(readOnly = true)
     @Override
-    public Page<Address> getAllModelsByModel2Id(Long userId, Pageable pageable) throws Exception {
+    public Page<Address> getAllModelsByModel2Id(Long userId, Pageable pageable)  {
         return addressRepository.findByUserId(userId,pageable);
     }
 
     @Override
-    public Address getModelByIdAndModel2Id(Long userId, Long addressId) throws Exception {
+    public Address getModelByIdAndModel2Id(Long userId, Long addressId)  {
         return addressRepository.findByIdAndUserId(addressId, userId)
                 .orElseThrow(() -> new ResourceNotFoundException(
                         "Address not found with Id " + addressId+
@@ -38,7 +38,7 @@ public class AddressServiceImpl  implements AddressService {
     }
 
     @Override
-    public Address create(Long userId, Address address) throws Exception {
+    public Address create(Long userId, Address address)  {
         return userRepository.findById(userId).map(user->{
            address.setUser(user);
             return addressRepository.save(address);
@@ -46,7 +46,7 @@ public class AddressServiceImpl  implements AddressService {
     }
 
     @Override
-    public Address update(Long userId, Long addressId, Address details) throws Exception {
+    public Address update(Long userId, Long addressId, Address details)  {
         if(!userRepository.existsById(userId))
             throw new ResourceNotFoundException("User", "Id", userId);
 
@@ -61,7 +61,7 @@ public class AddressServiceImpl  implements AddressService {
     }
 
     @Override
-    public ResponseEntity<?> delete(Long userId, Long addressId) throws Exception {
+    public ResponseEntity<?> delete(Long userId, Long addressId) {
         return addressRepository.findByIdAndUserId(addressId, userId).map(address -> {
             addressRepository.delete(address);
             return ResponseEntity.ok().build();

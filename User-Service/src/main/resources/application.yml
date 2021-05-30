@@ -21,4 +21,9 @@ spring:
         show_sql: true
         use_sql_comment: false
         format_sql: false
+springdoc:
+  api-docs:
+    path: /users-api-docs
+  swagger-ui:
+    path: /users-api-docs-ui.html
 

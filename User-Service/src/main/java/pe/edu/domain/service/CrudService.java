@@ -9,10 +9,10 @@ import java.util.Optional;
 
 public interface CrudService<T,ID> {
 
-    Page<T> getAll(Pageable pageable)throws  Exception;
-    T getModelById (ID id) throws  Exception;
-    T create (T model) throws Exception;
-    T update (ID id,T details) throws Exception;
-    ResponseEntity<?> delete(ID id) throws Exception;
+    Page<T> getAllModels(Pageable pageable);
+    T getModelById (ID id) ;
+    T create (T model) ;
+    T update (ID id,T details) ;
+    ResponseEntity<?> delete(ID id) ;
 
 }

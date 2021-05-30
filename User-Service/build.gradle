@@ -29,6 +29,21 @@ dependencies {
     //implementation 'org.springframework.cloud:spring-cloud-starter-config'
    // implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
     //implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '2.4.4'
+    // https://mvnrepository.com/artifact/org.modelmapper.extensions/modelmapper-spring
+    implementation group: 'org.modelmapper.extensions', name: 'modelmapper-spring', version: '2.4.4'
+    // https://mvnrepository.com/artifact/javax.validation/validation-api
+    implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+    // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-data-rest
+    implementation group: 'org.springdoc', name: 'springdoc-openapi-data-rest', version: '1.5.9'
+    // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
+    implementation group: 'org.springdoc', name: 'springdoc-openapi-ui', version: '1.5.9'
+
+
+
+
+
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
