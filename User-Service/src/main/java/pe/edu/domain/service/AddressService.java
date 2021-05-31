@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import pe.edu.domain.model.Address;
 import pe.edu.domain.model.User;
 
-public interface UserService extends CrudService<User,Long> {
+public interface AddressService extends CrudServiceForeignKey1<Address,Long,Long> {
+
 
 }
